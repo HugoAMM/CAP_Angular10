@@ -1,0 +1,34 @@
+<div class="container" *ngIf="formPlayer">
+
+  <div class="form" [formGroup]="formPlayer">
+    <h1>{{ title }}</h1>
+  <mat-form-field class="input-form" appearance="fill">
+    <mat-label>Nombre</mat-label>
+    <input matInput placeholder="Ej. Cristiano Ronaldo dos Santos Aveiro" formControlName="name">
+  </mat-form-field>
+
+  <mat-form-field class="input-form" appearance="fill">
+    <mat-label>Nacionalidad</mat-label>
+    <input matInput placeholder="Ej. Portuguesa" formControlName="nationality">
+  </mat-form-field>
+
+  <mat-form-field class="input-form" appearance="fill">
+    <mat-label>Equipo Debut</mat-label>
+    <input matInput placeholder="Ej. Sporting C. P." formControlName="debutTeam">
+  </mat-form-field>
+
+  <mat-form-field class="input-form" appearance="fill">
+    <mat-label>Posición</mat-label>
+    <input matInput placeholder="Ej. Delantero" formControlName="position">
+  </mat-form-field>
+
+  <mat-form-field class="input-form" appearance="fill">
+    <mat-label>Equipo Actual</mat-label>
+    <input matInput placeholder="Ej. 	Manchester United F. C." formControlName="actualTeam">
+  </mat-form-field>
+
+</div>
+
+  <button class= "new-button" mat-raised-button color="primary" [disabled]="formPlayer.invalid" (click)="save()">Registrar Jugador</button>
+
+</div>

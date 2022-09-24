@@ -1,0 +1,28 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "Ronaldo de Assis Moreira",
+      "nationality": "Brasileña",
+      "debutTeam": "Grêmio F. B. P. A.",
+      "position": "Delantero",
+      "actualTeam": "Retirado profesionalmente"
+    },
+    {
+      "name": " Lionel Andrés Messi Cuccittini",
+      "nationality": "Argentino",
+      "debutTeam": "F. C. Barcelona",
+      "position": "Delantero",
+      "actualTeam": "Paris Saint-Germain F. C.",
+      "id": 2
+    },
+    {
+      "name": "Cristiano Ronaldo dos Santos ",
+      "nationality": "Portuguesa",
+      "debutTeam": "Sporting C. P.",
+      "position": "Delantero",
+      "actualTeam": "Manchester United F. C.",
+      "id": 3
+    }
+  ]
+}
